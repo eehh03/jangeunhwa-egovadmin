@@ -1,0 +1,10 @@
+---
+applications:
+- name: jangeunhwa-egovadmin
+  memory: 512M
+  host: jangeunhwa-egovadmin
+  domain: paas-ta.org
+  services:
+  - jangeunhwa-egov-db
+  instances: 1
+  disk_quota: 512M
